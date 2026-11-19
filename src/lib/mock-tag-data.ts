@@ -6,3 +6,5 @@ export const PHOTO_TAGS = {
 } as const;
 
 export const AVAILABLE_TAGS = Object.values(PHOTO_TAGS).flat().sort();
+
+
